@@ -1,6 +1,7 @@
 body {
     margin: 0px;
     background-color: #fdfcf8;
+    /*background-color: #fce273;*/
 }
 
 #navbar {
@@ -51,11 +52,6 @@ body {
     background-color: rgba(0, 0, 0, 0.1);
 }
 
-#pics {
-    height: 50px;
-    padding-bottom: 15px;
-}
-
 @media screen and (max-width: 580px) {
     #navbar {
         padding: 30px 10px !important;
@@ -71,14 +67,14 @@ body {
 }
 
 .biiig1 {
-    font-size: 160px;
+    font-size: 8.4vw;
     font-family: 'Playfair Display', serif;
     padding-top: 8vh;
     padding-left: 12vw;
     color: #231f20;
 }
 .biiig2 {
-    font-size: 160px;
+    font-size: 8.4vw;
     font-family: 'Playfair Display', serif;
     padding-left: 27vw;
     color: #231f20;
@@ -86,54 +82,12 @@ body {
 
 .little1 {
     text-align: right;
-    font-size: 40px;
+    font-size: 4vh;
     font-family: 'Playfair Display', serif;
     padding-left: 72vw;
-    padding-top: 13vh;
+    padding-top: 10.5vh;
     color: #fdfcf8;
     position: absolute;
-}
-
-.custom-shape-divider-top-1698291566 {
-    position: absolute;
-    top: 40px;
-    left: 0;
-    width: 100%;
-    overflow: hidden;
-    line-height: 0;
-}
-
-.custom-shape-divider-top-1698291566 svg {
-    position: relative;
-    display: block;
-    width: calc(300% + 1.3px);
-    height: 500px;
-}
-
-.custom-shape-divider-top-1698291566 .shape-fill {
-    fill: #fdfcf8;
-}
-
-.custom-shape-divider-top-1698291725 {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    overflow: hidden;
-    line-height: 0;
-    transform: rotate(180deg);
-}
-
-.custom-shape-divider-top-1698291725 svg {
-    position: relative;
-    display: block;
-    width: calc(300% + 1.3px);
-    height: 45px;
-}
-
-.custom-shape-divider-top-1698291725 .shape-fill {
-    fill: #fdfcf8;
-    /*fill: #fce273;*/
 }
 
 .custom-shape-divider-bottom-1698292215 {
@@ -150,7 +104,7 @@ body {
     position: relative;
     display: block;
     width: calc(123% + 1.3px);
-    height: 453px;
+    height: 42vh;
     transform: rotateY(180deg);
 }
 
