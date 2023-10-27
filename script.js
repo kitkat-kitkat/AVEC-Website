@@ -1,5 +1,18 @@
-window.onscroll = function() {scrollFunction()};
+function arrow() {
+    if (document.getElementById("pic2").style.opacity == "1") {
+        console.log("yes1");
+        document.getElementById("pic2").style.opacity = "0";
+        document.getElementById("pic3").style.opacity = "0";
+    } else {
+        console.log("yes2");
+        document.getElementById("pic2").style.opacity = "1";
+        document.getElementById("pic3").style.opacity = "1";
+    }
+}
 
+
+
+// window.onscroll = function() {scrollFunction()};
 // function scrollFunction() {
 //     if (document.body.scrollTop > 50 || document.documentElement.scrollTop > 50) {
 //         document.getElementById("navbar").style.padding = "10px 10px";
