@@ -181,14 +181,39 @@ body {
     position: absolute;
     font-weight: 700;
 }
-.pic5 {
-    width: 17vw;
+#pic5 {
+    width: 13vw;
     align-content: center;
     padding: 0 10px;
-    left: 56vw;
-    top: 77vh;
+    left: 74.1vw;
+    bottom: -6vh;
     position: absolute;
-    rotate: 16deg;
+}
+#pic6 {
+    width: 13vw;
+    align-content: center;
+    padding: 0 10px;
+    left: 87.5vw;
+    bottom: -6.5vh;
+    position: absolute;
+    opacity: 0;
+}
+#pic7 {
+    width: 13vw;
+    align-content: center;
+    padding: 0 10px;
+    left: 76.5vw;
+    top: 2vh;
+    position: absolute;
+}
+#pic8 {
+    width: 8.4vw;
+    align-content: center;
+    padding: 0 10px;
+    left: 89.8vw;
+    top: 3.3vh;
+    position: absolute;
+    opacity: 0;
 }
 
 .whatis1 {
@@ -433,6 +458,11 @@ body {
 }
 #end {
     height: 100vh;
+    scroll-snap-align: center;
+    position: relative;
+}
+#madewith {
+    height: 8vh;
     scroll-snap-align: center;
     position: relative;
 }
