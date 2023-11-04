@@ -70,52 +70,15 @@ body {
     font-weight: 600;
 }
 
-#navbar2 {
-    overflow: hidden;
-    padding: 2.7vh 10px;
-    /*position: fixed;*/
-    width: 100%;
-    top: 0;
-    z-index: 99;
-    text-align: center;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-color: rgba(43, 45, 66, 0);
-}  #navbar2 a {
-       color: #fdfcf8;
-       text-align: center;
-       padding: calc(1.1vh + 1px);
-       text-decoration: none;
-       line-height: 25px;
-       border-radius: 4px;
-       font-size: 1.89vh;
-       font-family: raisonne-demibold,Raisonne,Futura,Helvetica,Arial,sans-serif;
-       font-weight: 500;
-       position: relative;
-       overflow: hidden;
-       word-break: break-word;
-       -webkit-hyphens: auto;
-       -ms-hyphens: auto;
-       hyphens: auto;
-       text-transform: uppercase;
-       padding-left: 1.31vw;
-       padding-right: 1.31vw;
-   }  #navbar2 #logo {
-          font-size: 3.3vh;
-          font-weight: 600;
-      }
-
 .title-break {
     font-size: 0.02vh;
+}
+.gap {
+    padding-bottom: 38vh;
 }
 
 #navbar a:hover {
     background-color: rgba(0, 0, 0, 0.1);
-}
-
-#navbar2 a:hover {
-    background-color: rgba(50, 50, 50, 0.5);
 }
 
 @media screen and (max-width: 580px) {
@@ -185,28 +148,11 @@ body {
     width: 13vw;
     align-content: center;
     padding: 0 10px;
-    left: 74.1vw;
-    bottom: -6vh;
-    position: absolute;
-}
-#pic6 {
-    width: 13vw;
-    align-content: center;
-    padding: 0 10px;
-    left: 87.5vw;
-    bottom: -6.5vh;
-    position: absolute;
-    opacity: 0;
-}
-#pic7 {
-    width: 13vw;
-    align-content: center;
-    padding: 0 10px;
     left: 76.5vw;
     top: 2vh;
     position: absolute;
 }
-#pic8 {
+#pic6 {
     width: 8.4vw;
     align-content: center;
     padding: 0 10px;
@@ -249,7 +195,7 @@ body {
 
 #pic2 {
     position: absolute;
-    top: 42vh;
+    top: calc(42vh + 10px);
     left: 33vw;
     width: 20vw;
     opacity: 0;
@@ -418,21 +364,6 @@ body {
     font-size: 2.5vh;
     font-family: 'Playfair Display', serif;
     color: #fdfcf8;
-}
-
-/*.little4 {*/
-/*    text-align: left;*/
-/*    font-size: 3vh;*/
-/*    font-family: 'Playfair Display', serif;*/
-/*    left: 52vw;*/
-/*    top: 39vh;*/
-/*    color: #fdfcf8;*/
-/*    position: absolute;*/
-/*    width: 31vw;*/
-/*}*/
-
-.gap {
-    padding-bottom: 38vh;
 }
 
 #container {

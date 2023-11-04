@@ -1,14 +1,14 @@
 function arrow() {
-    if (document.getElementById("pic2").style.opacity == "1") {
+    if (document.getElementById("pic2").style.opacity === "1") {
         console.log("yes1");
         document.getElementById("pic2").style.opacity = "0";
         document.getElementById("pic3").style.opacity = "0";
-        document.getElementById("pic8").style.opacity = "0";
+        document.getElementById("pic6").style.opacity = "0";
     } else {
         console.log("yes2");
         document.getElementById("pic2").style.opacity = "1";
         document.getElementById("pic3").style.opacity = "1";
-        document.getElementById("pic8").style.opacity = "1";
+        document.getElementById("pic6").style.opacity = "1";
     }
 }
 
