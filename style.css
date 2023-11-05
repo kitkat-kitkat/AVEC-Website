@@ -42,7 +42,6 @@ body {
     padding-right: 1.27vw;
 }  #navbar #logo {
     -moz-user-select: none;
-    -khtml-user-select: none;
     -webkit-user-select: none;
     -ms-user-select: none;
     user-select: none;
@@ -152,7 +151,7 @@ body {
     text-align: right;
     font-size: 5vw;
     font-family: 'Playfair Display', serif;
-    left: 10.9vw;
+    left: 11.9vw;
     top: 26vh;
     color: #fdfcf8;
     position: absolute;
@@ -163,7 +162,7 @@ body {
 .pic {
     position: absolute;
     top: 27.2vh;
-    left: 29.4vw;
+    left: 30.4vw;
     width: 10vw;
 }
 
@@ -171,7 +170,7 @@ body {
     text-align: left;
     font-size: 5vw;
     font-family: 'Playfair Display', serif;
-    left: 40vw;
+    left: 41vw;
     top: 26.7vh;
     color: #fdfcf8;
     position: absolute;
@@ -196,11 +195,11 @@ body {
 }
 
 #where1 {
+    transform: translateX(-100%);
     font-size: 5vw;
     font-family: 'Playfair Display', serif;
-    left: 52.7vw;
-    transform: translateX(-100%);
-    top: 29vh;
+    left: 35.06vw;
+    top: 43vh;
     color: #fdfcf8;
     position: absolute;
     font-weight: 700;
@@ -209,8 +208,8 @@ body {
 
 .pic4 {
     position: absolute;
-    top: 30.2vh;
-    left: 54.2vw;
+    top: 44.2vh;
+    left: 36.4vw;
     width: 10vw;
 }
 
@@ -218,8 +217,8 @@ body {
     text-align: left;
     font-size: 5vw;
     font-family: 'Playfair Display', serif;
-    left: 64.8vw;
-    top: 29.7vh;
+    left: 47vw;
+    top: 43.7vh;
     color: #fdfcf8;
     position: absolute;
     font-weight: 700;
@@ -227,38 +226,38 @@ body {
 }
 
 .link1 {
-    transform: translate(-50%, -50%);
+    transform: translate(-100%, -50%);
     font-size: 2vw;
     font-family: 'Playfair Display', serif;
-    left: 20vw;
-    top: 62vh;
+    left: 75vw;
+    top: 35vh;
     position: absolute;
     color: #fdfcf8;
 }
 .link2 {
-    transform: translate(-50%, -50%);
+    transform: translate(-100%, -50%);
     font-size: 2vw;
     font-family: 'Playfair Display', serif;
-    left: 40vw;
-    top: 62vh;
+    left: 75vw;
+    top: 45vh;
     position: absolute;
     color: #fdfcf8;
 }
 .link3 {
-    transform: translate(-50%, -50%);
+    transform: translate(-100%, -50%);
     font-size: 2vw;
     font-family: 'Playfair Display', serif;
-    left: 60vw;
-    top: 62vh;
+    left: 75vw;
+    top: 55vh;
     position: absolute;
     color: #fdfcf8;
 }
 .link4 {
-    transform: translate(-50%, -50%);
+    transform: translate(-100%, -50%);
     font-size: 2vw;
     font-family: 'Playfair Display', serif;
-    left: 80vw;
-    top: 67vh;
+    left: 77vw;
+    top: 65vh;
     position: absolute;
     color: #fdfcf8;
 }
