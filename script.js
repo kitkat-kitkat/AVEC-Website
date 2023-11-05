@@ -1,18 +1,35 @@
 function arrow() {
     if (document.getElementById("pic2").style.opacity === "1") {
-        console.log("yes1");
+        console.log("lights off");
         document.getElementById("pic2").style.opacity = "0";
         document.getElementById("pic3").style.opacity = "0";
         document.getElementById("pic6").style.opacity = "0";
+        document.getElementById("where1").innerHTML = "Where is";
+        document.getElementById("where2").innerHTML = "?";
+
     } else {
-        console.log("yes2");
+        console.log("lights on");
         document.getElementById("pic2").style.opacity = "1";
         document.getElementById("pic3").style.opacity = "1";
         document.getElementById("pic6").style.opacity = "1";
+        document.getElementById("where1").innerHTML = "here is";
+        document.getElementById("where2").innerHTML = "";
     }
 }
 
 
+const target1 = document.querySelector('#lovebox');
+function handleIntersection1(entries) {
+    entries.map((entry) => {
+        if (entry.isIntersecting) {
+            document.getElementById("lovebox").style.opacity = "1";
+        } else {
+            document.getElementById("lovebox").style.opacity = "0";
+        }
+    });
+}
+const observer1 = new IntersectionObserver(handleIntersection1);
+observer1.observe(target1);
 
 // window.onscroll = function() {scrollFunction()};
 // function scrollFunction() {
